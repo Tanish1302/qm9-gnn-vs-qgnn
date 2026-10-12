@@ -1,0 +1,3 @@
+model,params,test_mae_eV
+Mean predictor,1,1.0669507654968764
+Linear on mean atom features,24,0.49675424248208633

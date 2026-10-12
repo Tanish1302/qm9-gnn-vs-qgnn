@@ -1,0 +1,55 @@
+{
+  "source_notebook": "QM9_EDA_Preprocessing.ipynb",
+  "target": "gap_eV",
+  "y_mean_eV": 6.858275569060549,
+  "y_std_eV": 1.2837014691193127,
+  "note": "y = (gap_eV - y_mean_eV) / y_std_eV, scaler fit on the FULL train split (104,595 molecules)",
+  "sizes": {
+    "train": 10000,
+    "val": 2000,
+    "test": 2000
+  },
+  "random_state": 42,
+  "max_nodes": 9,
+  "node_features": [
+    "elem_C",
+    "elem_N",
+    "elem_O",
+    "elem_F",
+    "deg_0",
+    "deg_1",
+    "deg_2",
+    "deg_3",
+    "deg_4",
+    "numH_0",
+    "numH_1",
+    "numH_2",
+    "numH_3",
+    "numH_4",
+    "hyb_sp",
+    "hyb_sp2",
+    "hyb_sp3",
+    "hyb_other",
+    "aromatic",
+    "in_ring",
+    "charge_-1",
+    "charge_+0",
+    "charge_+1"
+  ],
+  "edge_features": [
+    "bond_single",
+    "bond_double",
+    "bond_triple",
+    "bond_aromatic",
+    "conjugated",
+    "in_ring"
+  ],
+  "bond_codes": {
+    "0": "none",
+    "1": "single",
+    "2": "double",
+    "3": "triple",
+    "4": "aromatic"
+  },
+  "stratified_on": "10 gap bins (full-train quantiles) x contains-F"
+}

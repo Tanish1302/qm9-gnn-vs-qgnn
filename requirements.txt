@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+joblib
+rdkit>=2024.3
+torch>=2.6
+torch_geometric>=2.6
+pennylane>=0.38
+jupyter

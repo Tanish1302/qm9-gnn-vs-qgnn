@@ -1,0 +1,9 @@
+{
+  "best_L": 4,
+  "best_angles": 2,
+  "best_name": "QGNN L=4, 2 angles",
+  "epochs_max": 25,
+  "patience": 5,
+  "lr": 0.01,
+  "batch": 128
+}

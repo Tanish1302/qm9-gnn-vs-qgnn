@@ -1,0 +1,18 @@
+# Large data files (rebuilt by the notebooks; see README "How to run")
+qm9.csv
+processed/qm9_clean.csv
+processed/qm9_gap_eV_processed.npz
+processed/qm9_gap_eV_transforms.joblib
+processed/graphs/qm9_gap_subset_graphs.pt
+processed/graphs/qm9_gap_full_graphs.pt
+
+# Third-party papers and extracted text (cited in README, not redistributed)
+*Springer Nature Link.html
+s41467-025-59439-1.pdf
+p.txt
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
