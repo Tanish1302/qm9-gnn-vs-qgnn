@@ -1,0 +1,23 @@
+{
+  "backend": "ibm_kingston",
+  "real_hardware": true,
+  "job_id": "dbe496ngdj9s73fl68a0",
+  "date_utc": "2026-10-24T05:44:25+00:00",
+  "shots": 1024,
+  "mitigation": true,
+  "n_calibration": 30,
+  "n_test": 30,
+  "two_qubit_gates_median": 54.0,
+  "two_qubit_gates_max": 104,
+  "depth_median": 158.0,
+  "test_mae_eV": {
+    "exact simulation (same molecules)": 0.5239167809486389,
+    "ibm_kingston, raw (1024 shots)": 0.8929107785224915,
+    "ibm_kingston, recalibrated head": 0.5313625058148561
+  },
+  "recalibrated_head": [
+    2.963898722734043,
+    2.8212317934756337,
+    -0.9272014824610575
+  ]
+}
